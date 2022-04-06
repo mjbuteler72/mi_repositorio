@@ -1,0 +1,140 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+h1{ 
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 10px;
+  text-align: center;
+  
+}
+H2{ 
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 10px;
+  text-align: center;
+
+
+}
+
+header{ background: linear-gradient(mediumseagreen, darkkhaki );
+        text-align: center;  
+        width: 100%;
+        height: 100px;
+        position:static;
+}
+.container img{width: 110px;
+               height: 100px;
+
+}
+
+nav{ background-color: darkkhaki;
+     height: 50px;
+     border-bottom: 1px solid black;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     display: flex;
+     flex-wrap:wrap ;
+     justify-content: center;
+     
+     
+}
+nav ul {
+         position:relative;
+         width: 800px;
+         margin: 0;
+         display: inline-block;
+         
+}
+
+nav ul li{ 
+           list-style:none;
+           margin: left 5px;
+           position: relative;
+           top: 5px;
+           border: 1px solid mediumseagreen;
+           display: inline-block;
+           font-family:Arial, Helvetica, sans-serif;
+          
+          
+              
+}
+
+body { 
+   background-color: rgb(163, 160, 160);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+
+.maincontainer { float:left;
+                 width: 100%;
+                 background-color: darkgray;
+                 text-align: justify center;
+                 font-family: Verdana, Geneva, Tahoma, sans-serif;  
+                 
+}
+section{ background-color: darkgray;
+         width: 100%; 
+         overflow: hidden;
+         display: grid;
+         grid-template-columns: 2, 1fr;
+         grid-auto-rows: 250px;
+         padding:20px;
+         grid-gap: 20px;
+        
+        
+
+}
+ img{ width: 300px;
+        height: auto;
+        margin: auto;
+        display: block;
+        border-radius: 50px;
+        padding: 10px;
+        border: 1px solid rgb(255, 255, 255);
+        float:left;
+        grid-row:auto
+        
+ }
+
+.cas1{
+      text-align: center;
+      position:absolute;
+      color:black ;
+      background:linear-gradient(white,darkkhaki);
+      width: 35%;
+      margin: 0;
+      padding: 3px;  
+     }
+
+ .cas2{ text-align: center;
+        position:absolute;
+        color:black ;
+        background:linear-gradient(white,darkkhaki);
+        width: 35%;
+        margin: 0;
+        padding: 3px;
+
+ }    
+ .cas3{ text-align: center;
+        position:absolute;
+        color:black ;
+        background:linear-gradient(white,darkkhaki);
+        width: 35%;
+        margin: 0;
+        padding: 3px;
+
+ }
+footer { text-align:center;
+        position:static;
+        padding: 20px;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        background-color: darkkhaki;
+}      
+
+
+
+
+        
